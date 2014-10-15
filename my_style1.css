@@ -1,0 +1,211 @@
+.without-padding {
+	padding: 0px;
+}
+
+.homeimage {
+width:100%;
+height:600px;
+background-color:#58bea9;
+background-image: url(cover11.jpg);
+background-repeat:no-repeat;
+background-position:center; 
+padding-right: 0px;
+text-align: center;
+}
+
+.homeimage:hover{
+width:100%;
+height:600px;
+background-color:#ef836a;
+background-image: url(homepage.gif);
+background-repeat:no-repeat;
+background-position:center; 
+padding-right: 0px;
+text-align: center;
+}
+
+.home:hover{
+Home
+}
+
+
+
+.bgimg3 {
+background-color:#dda494;
+width:100%;
+height:100px;
+padding-right: 0px;
+position: relative;
+}
+
+.bgimg4 {
+background-color:#dda494;
+width:100%;
+height:150px;
+padding-right: 0px;
+}
+
+.intro{
+font-family: Helvetica;
+margin:0 auto;
+display: inline-block;
+color: white; 
+font-weight: lighter;
+letter-spacing: 5px;
+font: inherit;
+font-weight: 800;
+margin-top: 80px;
+}
+
+
+.button{
+position: absolute;
+padding-top: 30px;
+text-align: center;
+width: 100%;
+}
+
+
+.links{
+position: absolute;
+padding-top: 25px;
+text-align: center;
+width: 100%;
+
+
+}
+
+.rights{
+position: absolute;
+bottom: 7px;
+text-align: center;
+width: 100%;
+font-size: 10px;
+color: #f7ceb5;
+}
+
+
+
+.menu a{
+color: #58bea9;
+font-size: 20px;
+text-decoration: none;
+}
+
+.menu {
+padding-top: 60px;
+text-align: center;
+width: 100%;
+margin: 0 auto;
+font-family: Helvetica;
+font-variant: small-caps;
+letter-spacing: 1px;
+position: fixed;
+
+
+}
+
+
+
+
+
+
+ul{
+margin:0 auto;
+padding:0;
+list-style-type: none;
+}
+
+li{
+letter-spacing: 2;
+font-weight: 500;
+}
+
+.current_page_item a{
+font-weight: 800;
+
+
+} 
+
+
+.portfolio{
+background-color: #ffffff;
+
+
+}
+
+
+
+
+.foto {
+text-align: center;
+width: 100%;
+padding-top: 30px;
+
+}
+
+.about {
+background-color: #58bea9
+}
+
+.text_about {
+	padding-top: 20px;
+color:#ffffff;
+text-align: center;
+
+}
+
+.gallery {
+padding-top: 80px;
+text-align: center;
+padding-left: 50px;
+padding-right: 50px;
+background-color: #eeeeee;
+padding-bottom: 30px;
+}
+
+
+.gallerytext{
+font-size: 16px;
+text-align: center;
+width: 100%;
+padding-top: 30px;
+color: #58bea9;
+
+
+}
+
+
+
+.img-circle {
+margin-left: 15px;
+margin-right: 15px;
+
+
+}
+
+.hidden {
+	display: none;
+}
+
+.web{
+	border-image: url(Playfulbet.jpg)
+	text-align: center;
+	padding-top: 40px;
+	width: 100%;
+}
+
+.info{
+	padding-top: 40px;
+	font-family: Helvetica; 
+	text-align: center;
+	width: 100%;
+}
+
+.sub-title{
+margin-bottom: 22px;
+color: #666;
+text-align: center;
+text-transform: none;
+
+}

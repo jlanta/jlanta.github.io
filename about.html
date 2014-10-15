@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>about</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="my_style.css" rel="stylesheet" media="screen">
+</head>
+ <body>
+<div class="col-md-1 without-padding" id="menucontainer">
+      <div class="menu" data-spy="affix">
+
+<ul id="menutable">
+<li class="effecthidden"><a href="index.html"> <img src="iconhome.svg"> <img src="iconhomehidden.svg" class="hidden"> </a></li>
+<li class="effecthidden"><a href="index.html #herehomegallery"> <img src="iconpencil.svg"> <img src="iconpencilhidden.svg" class="hidden"> </a></li>
+<li class="effecthidden"><a href="about.html"> <img src="iconaboutcurrent.svg"> <img src="iconabouthidden.svg" class="hidden"> </a></li>
+<li class="effecthidden"><a href="about.html"> <img src="iconletter.svg"> <img src="iconletterhidden.svg" class="hidden"> </a></li>
+             </ul>
+       </div>
+  </div>
+
+
+     
+
+          <div class="col-md-11 without-padding">
+ <img src="photoabout.gif" class="img-rounded img-responsive photoabout"> 
+
+               <div class="text_about">   
+
+              
+ I am a lithuanianian graphic designer based in lovely <b>Copenhagen, Denmark.</b> <br>
+ I am <b>Creative Industries</b> graduated with BA in Information and Communication. 
+ <br>
+ I am currently studying Msc in Media Management.<br>
+ Before moving to Denmark I have been living and working in Barcelona, Spain. <br>
+ I am currently searching for super cool team to work with. <br>
+            
+
+                
+  I like square photos, Chai Latte and walking barefoot. <br>
+  </div>
+
+
+
+<div class="contactlinks">
+
+  
+
+  <div class="contacttext">  
+
+  <img src="mailicon.png"> norbutaite.jolanta@gmail.com <br>
+  <img src="phoneicon.png"> + 45 5036 3091<br>
+ <img src="locationicon.png">
+ Copenhagen, Denmark
+  </div>
+
+  </div>
+
+
+
+              </div>
+
+
+
+
+
+
+
+
+                 
+               
+ </div>
+
+     
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/file.js"></script>
+<script>
+  $("a.magichidden").hover(function(){
+    $(this).children("img").each(function(){
+      k = $(this).hasClass("hidden")
+      if(k){
+        $(this).removeClass("hidden");
+      }
+      else{
+        $(this).addClass("hidden");
+      }
+    })
+  });
+</script>
+  </body>
+</html>
