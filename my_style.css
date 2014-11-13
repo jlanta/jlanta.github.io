@@ -254,7 +254,11 @@ opacity: 0.6;
   font-size: 12px;
   max-width: 910px;
   text-align: center;
-  background-color: #f4f5f5;
+  
+}
+
+.playfulbet-back{
+background-color: #f4f5f5;
 }
 
 
