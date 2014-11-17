@@ -38,19 +38,6 @@ li{
 #homecover {
   width:100%;
   height:520px;
-  background-color:#5fb8a6;
-  background-image: url(homepagebackground.svg);
-  background-repeat:no-repeat;
-  background-position:center; 
-  padding-right: 0px;
-  text-align: center;
-}
-
-#homecover:hover{
-  width:100%;
-  height:520px;
-  background-color:#ed836a;
-  background-image: url(coveanimation.svg);
   background-repeat:no-repeat;
   background-position:center; 
   padding-right: 0px;

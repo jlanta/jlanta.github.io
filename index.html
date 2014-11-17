@@ -29,7 +29,7 @@
 
 <div class="col-md-11 col-s-11 without-padding">
 
-<a name="herehomecover"> <div id="homecover"> </a>
+<a name="herehomecover"> <div id="homecover" style="background-color:#5fb8a6; background-image: url(homepagebackground.svg);"> </a>
         <h1 class="introtext">
         GRAPHIC DESIGN | ILLUSTRATION
        </h1>
@@ -111,7 +111,18 @@
 <script src="js/file.js"></script>
 
 <script>
-
+  var originalOrder = true;
+  var changeCover = function(){
+    if(originalOrder){
+      $("#homecover").attr("style", "background-color:#ed836a; background-image: url(coveanimation.svg);");
+      originalOrder = false;
+    }
+    else{
+      $("#homecover").attr("style", "background-color:#5fb8a6; background-image: url(homepagebackground.svg);");
+      originalOrder = true;
+    }
+  }
+  setInterval(changeCover, 6000)
 </script>
   </body>
 </html>
