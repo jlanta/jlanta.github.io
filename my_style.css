@@ -197,9 +197,6 @@ opacity: 0.6;
  margin-left: 10px;
 }
 
-.description{
- margin-left: 10px;
-}
 
 
 }
@@ -214,6 +211,25 @@ opacity: 0.6;
   margin: 0 auto;
 
 }
+
+.description1{
+  text-align: justify;
+
+}
+
+
+.description1{
+  font-family: 'Lato', sans-serif;
+  max-width: 920px;
+  color: #787d7c;
+  margin-bottom: 50px;
+  text-align: justify;
+
+}
+
+
+
+
 
 .title{
 	font-size: 24px;
@@ -230,7 +246,8 @@ opacity: 0.6;
 .description{
 	font-size: 14px;
 	line-height: 1.7;
-
+  max-width: 600px;
+float: left;
 }
 
 .images-container{
@@ -241,13 +258,52 @@ opacity: 0.6;
   font-size: 12px;
   max-width: 910px;
   text-align: center;
+  background-color: #f4f5f5;
   
 }
 
-.playfulbet-back{
-background-color: #f4f5f5;
+.images-container1{
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  font-family: Lato; 
+  font-size: 12px;
+  max-width: 910px;
+  text-align: center;
+  }
+
+
+.quote{
+  max-width: 280px;
+  text-align: center;
+  text-transform: inherit;
+  font-style: italic;
+  margin-bottom: 50px;
+  margin: 0 auto;
+  padding-right: 0;
+  text-decoration: none;
+  }
+
+
+.quoteinside{
+  margin: 0 auto;
+  }
+
+.badgeunit{
+  max-width: 75px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 20px;
 }
 
+
+.
+
+
+.playfulbet-back{
+background-color: red;
+}
+ 
 
 #badgesgallery{
   max-width: 450px;
@@ -265,7 +321,25 @@ background-color: #f4f5f5;
 
 .badgeunit img {
     -webkit-transition: all 1s ease; /* Safari and Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
+ 
+.quoteinside{
+  max-width: 255px;
+  float: right;
+  text-align: center;
+  text-transform: inherit;
+  font-style: italic;
+  margin-bottom: 50px;
+  }
+
+.badgeunit{
+  max-width: 75px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+
+.   -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
     -o-transition: all 1s ease; /* Opera */
     transition: all 1s ease;
@@ -378,4 +452,23 @@ background-color: #f4f5f5;
 
 a:hover{
   text-decoration: none;
+  }
+
+
+
+  a{
+  text-decoration: none;
+  color:  #939796;
+  }
+
+
+h5{
+  font-size: 10px;
+
+  }
+  
+h4{
+  padding-left: 10px;
+  text-align: center;
+  font-size: 16px;
   }
