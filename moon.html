@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>jolanta.me</title>
+    <title>Jolanta portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="my_style.css" rel="stylesheet" media="screen">
-     <Content-Type: image/svg+xml>
-<Content-Type: image/svg+xml>
- <Content-Encoding: gzip>
 </head>
 
-  <body>
+
+ <body>
+ 
 <div class="col-md-1 without-padding" id="menucontainer">
       <div class="menu" data-spy="affix">
 
             
               <ul id="menutable">
-<li class="effecthidden"><a href="index.html"> <img src="iconhomecurrent.svg"> <img src="iconhomehidden.svg" class="hidden"> </a></li>
-<li class="effecthidden"><a href="#herehomegallery"> <img src="iconpencil.svg"> <img src="iconpencilhidden.svg" class="hidden"> </a></li>
+<li class="effecthidden"><a href="index.html"> <img src="iconhome.svg"> <img src="iconhomehidden.svg" class="hidden"> </a></li>
+<li class="effecthidden"><a href="index.html#herehomegallery"> <img src="iconpencilcurrent.svg"> <img src="iconpencilhidden.svg" class="hidden"> </a></li>
 <li class="effecthidden"><a href="about.html"> <img src="iconabout.svg"> <img src="iconabouthidden.svg" class="hidden"> </a></li>
 
              </ul>
@@ -27,29 +26,45 @@
   </div>
 
 
-<div class="col-md-11 col-s-11 without-padding">
 
-<a name="herehomecover"> <div id="homecover" style="background-color:#5fb8a6; background-image: url(homepagebackground.svg);"> </a>
-        <h1 class="introtext">
-        GRAPHIC DESIGN | ILLUSTRATION
-       </h1>
+  <div class="col-md-11 without-padding">
+  <a name="here"> </a>
+        
+
+        <div class="descriptiontext">  
+
+   <h1 class="title">Illustration "Moon"</i></h1> 
+   <h2 class="role"> 
+     Vector illustration, character, print design</h2>
+    <p class="description1"> <b>"Moon"</b> is an illustration for a card.</p>
+           
+  </div>
+
+  <div class="images-container1">
+  <div class="galleryitem1">
+  <img src="moonillustration.png" class="img-responsive galleryitem">
+
+    <img src="greeting card.jpg" class="img-responsive galleryitem">
+     <img src="cardhorizont.jpg" class="img-responsive galleryitem">
+  </div>
+
+  </div>
+
+
+   <div class="line">
+           <h3 class="linetext"> <i>thanks for having a look. let's work together!</i></h3>
+           <a href="about.html" class="effecthidden">
+            <img src="getstarted.svg"  class="contactbutton">
+            <img src="getstartedhidden.svg" class="contactbutton hidden"></a>
+          
+
       </div>
-     
-      <div class="line">
-           <h3 class="linetext">check some stuff</h3>
-           <a href="#herehomegallery" class="arrow animated bouce"><img src="look.svg"></a>
-      </div>
 
 
+  
 
-
-
-
-
-
-
-
-
+  
+ 
 <a name="herehomegallery"><div id="gallerycontainer"></a>
 
    <div class="unit">
@@ -63,12 +78,16 @@
    </div>
 
    <div class="unit">
-       <a href="yuris_omen.html" class="effecthidden"><img src="video.gif" class="img-responsive"><img src="yurisomengalleryhidden.png" class="hidden img-responsive"></a>
+       <a href="yuris_omen.html" class="effecthidden"><img src="video.gif"  class="img-responsive">
+       <img src="yurisomengalleryhidden.png" class="hidden img-responsive"></a>
      
    </div>
 
-   <div class="unit">
-     <a href="moon.html" class="effecthidden"><img src="mooncover.png" class="img-responsive"><img src="mooncoverhidden.png" class="hidden img-responsive"></a>
+
+
+    <div class="unit">
+     <a href="moon.html"><img src="mooncovercurrent.png"  class="img-responsive"></a>
+    
    
    </div>
 
@@ -86,9 +105,20 @@
 </div>  
 
 
-  <div class="introcontainer">
+
+
+
+
+
+
+
+
+
+
+
+ <div class="introcontainer">
       
-      <a href="#herehomecover" class="uplink"><img src="up.svg"></a>
+      <a href="#here" class="uplink"><img src="up.svg"></a>
 
       <div class="linkabout"><a href="about.html"><img src="meetjolanta.png"></a> </div>
        
@@ -97,13 +127,12 @@
         <a href="https://www.linkedin.com/in/jnorbutaite" target="_blank" class="linkedin"><img src="in_logo.svg"></a>
          </div> 
 
-       <div class="made"> < />Jolanta Norbutaite &copy 2014</div>
+       <div class="made">Jolanta Norbutaite &copy 2014</div>
 
-  </div>
+      
+</div>
 
-   
-
- </div>
+  
 
      
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -111,18 +140,19 @@
 <script src="js/file.js"></script>
 
 <script>
-  var originalOrder = true;
-  var changeCover = function(){
-    if(originalOrder){
-      $("#homecover").attr("style", "background-color:#ed836a; background-image: url(coveanimation.svg);");
-      originalOrder = false;
-    }
-    else{
-      $("#homecover").attr("style", "background-color:#5fb8a6; background-image: url(homepagebackground.svg);");
-      originalOrder = true;
-    }
+
+  $("#worktext").hover(function(){
+    changetext("I WOULD ALSO LIKE TO WORK WITH YOU")
   }
-  setInterval(changeCover, 6000)
+  , function(){
+    changetext("I HAVE WORKED IN...")
+  } )
+
+  function changetext(s){
+    $("#worktext").text(s)
+  }
+
 </script>
   </body>
 </html>
+
