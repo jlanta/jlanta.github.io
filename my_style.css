@@ -368,11 +368,16 @@ float: left;
   text-decoration: none;
   }
 
+a:focus {
+  text-decoration: none;
+}
+
 
 .quoteinside{
   margin: 0 auto;
   padding-top: 100px;
   text-decoration:none;  
+  text-align: center;
 
   }
 
@@ -604,6 +609,7 @@ width: 50px;
 }
 
 .quoteline{
+  margin: 0 auto;
 }
 
 
