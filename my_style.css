@@ -750,6 +750,10 @@ margin-top: 10px;
 
 }
 
+.introimage {
+  margin: 0 auto;
+}
+
 
 #cover{
   max-width: 70px;
