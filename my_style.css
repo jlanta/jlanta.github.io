@@ -580,7 +580,9 @@ h4{
   }
 
   video{
-    max-width: 100%;
+    max-width: 1210px;
+    display: inherit;
+    margin: 0 auto;
   }
 
 .aboutimage{
