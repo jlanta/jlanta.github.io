@@ -124,9 +124,7 @@ opacity: 0.6;
 .unit{
 
     display: inline-block; 
-  
-    max-width: 240px;
-    height: : auto;
+    max-height: 455px
 }
 
 .unit1{
