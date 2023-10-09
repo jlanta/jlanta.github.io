@@ -1,1 +1,21 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.74 23.82"><defs><style>.cls-1{fill:none;stroke:#5cbca8;stroke-miterlimit:10;stroke-width:0.78px;}</style></defs><title>uplink</title><g id="Layer_1-2" data-name="Layer 1"><ellipse class="cls-1" cx="12.37" cy="11.91" rx="11.98" ry="11.52"/></g><polyline class="cls-1" points="6.79 13.65 12.49 9.4 17.98 13.65"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 63.6">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #1414f5;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <ellipse class="cls-2" cx="32.5" cy="31.8" rx="30.5" ry="29.8"/>
+  </g>
+  <polyline class="cls-1" points="18.3 36.3 32.8 25.3 46.8 36.3"/>
+</svg>
