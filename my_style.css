@@ -113,7 +113,6 @@ li{
 }
 
 .expertise{
-  text-align: left;
   padding-top: 48px;
 
 }
@@ -532,8 +531,6 @@ opacity: 0.6;
 
 
 .landing {
-   margin-left: 10%;
-  margin-right: 10%;
   padding-top: 100px;
 
 
@@ -543,8 +540,9 @@ opacity: 0.6;
 
 
 .home_landing {
-   margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 14%;
+  margin-right: 14%;
+  width: 100%;
 }
 
 
@@ -1126,8 +1124,7 @@ margin-top: 10px;
   height: 48px;
   transition: all.7s;
   position: relative;
-  margin-top:-26px;
-  margin-left: -32px;
+
   position: relative;
 }
 
@@ -1138,6 +1135,7 @@ margin-top: 10px;
   width: auto;
   height: 24px;
   float: left;
+ 
 }
 
 
@@ -1149,14 +1147,15 @@ margin-top: 10px;
   height: 110px;
   transition: all.7s;
   position: relative;
-  margin-left: -8px;
 }
 
 
 
 
 
-
+.landing li {
+  padding-left: 4px;
+}
 
 
 
