@@ -229,12 +229,14 @@ li{
 
 
 .introtext{
-  font-family:"Montserrat", sans-serif;
+font-family:"Montserrat", sans-serif;
   color: black; 
   margin-top: 48px;
-  font-size:62px;
   font-weight: 600;
   margin-bottom: 48px;
+   font-size: 4vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
+    font-size: max(48px, min(1vw, 62px)); /* Browsers that do not support the "clamp ()" function will take this value. */
+    font-size: clamp(48px, 4vw, 62px)
 
 
 
