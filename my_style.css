@@ -114,6 +114,7 @@ li{
 
 .expertise{
   padding-top: 48px;
+   margin-bottom: 100px;
 
 }
 
@@ -132,11 +133,11 @@ li{
   font-weight: 600;
   float: left;
   color: #000000;
-   margin-top: 62px;
+  margin-top: 62px;
+  margin-bottom: 24px;
     font-size: 3vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
     font-size: max(46px, min(1vw, 32px)); /* Browsers that do not support the "clamp ()" function will take this value. */
     font-size: clamp(46px, 3vw, 32px)
-
 }
 
 
