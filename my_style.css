@@ -132,11 +132,10 @@ li{
   font-weight: 600;
   float: left;
   color: #000000;
-  margin-top: 32px;
-  margin-bottom: 32px;
-    font-size: 4vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
-    font-size: max(48px, min(1vw, 62px)); /* Browsers that do not support the "clamp ()" function will take this value. */
-    font-size: clamp(48px, 4vw, 62px)
+   margin-top: 62px;
+    font-size: 3vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
+    font-size: max(46px, min(1vw, 32px)); /* Browsers that do not support the "clamp ()" function will take this value. */
+    font-size: clamp(46px, 3vw, 32px)
 
 }
 
@@ -1145,8 +1144,8 @@ margin-top: 10px;
 
 .star_1{
   z-index: 1;
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
   transition: all.7s;
   position: relative;
 }
