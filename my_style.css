@@ -1136,7 +1136,7 @@ margin-top: 10px;
 
 .location{
   width: auto;
-  height: 24px;
+ height: 20px;
   float: left;
  
 }
@@ -1331,8 +1331,8 @@ margin-top: 10px;
    color: #1a1b1f;
   z-index: 1;
   width: 100%;
-  padding-right: 80px;
-  padding-left: 10%;
+   padding-right: 24px;
+  padding-left: 23px;
   opacity: 80%;
   height: 120px;
   background-image:linear-gradient(to bottom, rgba(255,255,255,200), rgba(0,0,0,0));
