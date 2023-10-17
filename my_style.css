@@ -1,5 +1,5 @@
 .without-padding {
-	padding: 0px;
+  padding: 0px;
 }
 
 
@@ -232,11 +232,10 @@ li{
 .introtext{
   font-family:"Montserrat", sans-serif;
   color: black; 
-  margin-top: 58px;
-  font-size:74px;
+  margin-top: 48px;
+  font-size:62px;
   font-weight: 600;
-  margin-bottom: 32px;
-  padding-left: 16px;
+  margin-bottom: 48px;
 
 
 
@@ -300,7 +299,7 @@ opacity: 0.6;
 }
 
 .arrow:hover{
-	opacity: 0.7;
+  opacity: 0.7;
 }
 
 
@@ -353,6 +352,7 @@ opacity: 0.6;
  margin: 0 auto;
  text-align: center;
  margin-top: 80px;
+ width: fit-content;
    
     
 }
@@ -369,42 +369,42 @@ opacity: 0.6;
 }
 
 .projecttitle {
-	margin-top: 10px;
-	font-family: "Montserrat", sans-serif;
-	font-size: 14px;
-	line-height: 120%;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	text-align: left;
-	font-weight: bolder;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+  font-weight: bolder;
 
-	
+  
 }
 
 .projecttype {
-	font-family:"Montserrat", sans-serif;
-	font-size: 12px;
-	line-height: 100%;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: #7c7c7b;
-	float: left;
+  font-family:"Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #7c7c7b;
+  float: left;
 } 
 
 .introcontainer{
-	background-color: #ff937d;
-	 background-image: url(myphotofilter.png);
+  background-color: #ff937d;
+   background-image: url(myphotofilter.png);
     background-repeat:no-repeat;
     background-position:right; 
  width: 100%;
-	background-repeat:no-repeat;
+  background-repeat:no-repeat;
     background-position:left; 
     text-align: center;  
 
 }
 
 .uplink{
-	opacity: 0.5;	
+  opacity: 0.5; 
   max-width: 50px;
   float: right;
   margin-top: 10px;
@@ -413,7 +413,7 @@ opacity: 0.6;
 }
 
 .uplink:hover{
-	opacity: 1;
+  opacity: 1;
 }
 
 .linkabout{
@@ -435,8 +435,8 @@ opacity: 0.6;
 }
 
 .networks{
-	padding-top: 25px;
-	padding-bottom: 22px;
+  padding-top: 25px;
+  padding-bottom: 22px;
  display: block;
  text-align: center;
 }
@@ -455,48 +455,49 @@ opacity: 0.6;
 
 
 .made{
-	color: #fbd5cc;
-	font-size: 11px;
-	padding-bottom: 5px;
+  color: #fbd5cc;
+  font-size: 11px;
+  padding-bottom: 5px;
   padding: 0 20px;
 
 }
 
 
 .behance{
-	opacity: 0.5;
+  opacity: 0.5;
   width: 100px;
   margin-right: 4px;
 }
 
 .behance:hover{
-	opacity: 1.0;
+  opacity: 1.0;
   width: 100px;
   margin-right: 4px;
 }
 
 .linkedin{
-	opacity: 0.5;
+  opacity: 0.5;
    width: 100px;
 }
 .linkedin:hover{
-	opacity: 1.0;
+  opacity: 1.0;
    width: 100px;
 }
 
 @media (max-width: 992px) {
-	.menu{
-		
+  .menu{
+    
     vertical-align: middle;
-	}
+  }
 
-	.affix{
-		position: relative;
-	}
+  .affix{
+    position: relative;
+  }
 
-	#menutable {
-		display: inline;
-	}	
+  .menutable {
+    display: inline;
+  } 
+
 
 
 
@@ -531,9 +532,19 @@ opacity: 0.6;
 
 
 .landing {
-  margin-left: 100px;
+   margin-left: 10%;
+  margin-right: 10%;
   padding-top: 100px;
 
+
+
+
+}
+
+
+.home_landing {
+   margin-left: 10%;
+  margin-right: 10%;
 }
 
 
@@ -541,7 +552,7 @@ opacity: 0.6;
 
 
 .descriptiontext{
-	color: #787d7c;
+  color: #787d7c;
   margin: 0 auto;
 
 }
@@ -584,14 +595,14 @@ opacity: 0.6;
 }
 
 .role{
-	font-size: 14px;
-	padding-bottom: 20px;
-	line-height: 1.5;
+  font-size: 14px;
+  padding-bottom: 20px;
+  line-height: 1.5;
 }
 
 .description{
-	font-size: 14px;
-	line-height: 1.7;
+  font-size: 14px;
+  line-height: 1.7;
   max-width: 600px;
 float: left;
 }
@@ -1048,10 +1059,10 @@ h2{
 }
 
 .position-text{
-  font-size: 18px;
+    font-size: 18px;
   text-align: left;
   padding-bottom: 24px;
-  margin-bottom: 120px;
+  margin-right: 8px;
 }
 
 
@@ -1127,8 +1138,6 @@ margin-top: 10px;
   width: auto;
   height: 24px;
   float: left;
-  margin-left: 18px;
-  margin-right: -4px;
 }
 
 
@@ -1413,9 +1422,3 @@ margin-top: 10px;
   display: table;
   clear: both;
 }
-
-
-
-
-
-
