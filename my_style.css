@@ -195,12 +195,13 @@ da
 
 
 .archive-image{
-  width: 102px;
+  width: 150px;
   height: auto;
-  margin-top:-78px;
-  margin-left: -55px;
+  margin-top:-62px;
+  margin-left: -68px;
   position: relative;
   z-index: -1;
+  opacity: 90%;
 }
 
 
@@ -321,7 +322,7 @@ opacity: 0.6;
   max-width: 650px;
   text-align: center;
   margin: 0 auto;
- padding-top: 70px;
+ padding-top: 60px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -347,9 +348,10 @@ opacity: 0.6;
   max-width: 375px;
    font-family: 'futura-pt', 'Helvetica', 'Arial', sans-serif !important;
    margin: 0 auto;
-    padding-bottom: 24px;
+    padding-bottom: 32px;
     line-height: 22px;
     padding-top: 14px;
+
     
 }
 
@@ -1190,7 +1192,7 @@ margin-top: 10px;
   transition: all.7s;
   position: relative;
 
-  position: relative;
+  
 }
 
 
