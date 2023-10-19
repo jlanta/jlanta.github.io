@@ -691,6 +691,9 @@ background-color: red;
   max-width: 325px;
   margin: 0 auto;
   text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+
 }
 
 .badgeunit{
@@ -737,11 +740,17 @@ background-color: red;
 
 .badgetitle{
   margin-top: 15px;
-  font-family: "Montserrat", sans-serif;
   font-size: 10px;
   line-height: 120%;
-  letter-spacing: 1px;
-  color: #787d7c;
+
+ color: #5d5d5d;
+  text-align: left;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  text-align: center;
+
+
+
 }
 
 .text-container{
@@ -1164,7 +1173,7 @@ margin-top: 10px;
 
 .introimage {
   margin: 0 auto;
-  width: 100%;
+  width: 1210px;
 }
 
 
@@ -1505,6 +1514,7 @@ margin-top: 10px;
 
 .img-responsive{
   margin:0 auto;
+
 }
 
 
