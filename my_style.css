@@ -20,12 +20,11 @@
 }
 
 .menu {
-
-  padding-top: 85px;
-  width: 10%;
+  width: 140px;
   position: fixed;
   z-index: 1;
   text-align: center;
+  padding: 4px;
   
  
 
@@ -449,13 +448,18 @@ opacity: 0.6;
   float: right;
   margin-top: 10px;
   margin-right: 10px;
-  width: 40px; 
-  height: auto;
+
 }
 
 .uplink:hover{
   opacity: 1;
 }
+
+
+.uplink:visited {
+  opacity: 0.5; 
+}
+
 
 .linkabout{
   background-color: #eff0f0;
@@ -536,6 +540,8 @@ opacity: 0.6;
 
   .menutable {
     display: inline;
+    width: 100%;
+    text-align: center;
   } 
 
 
@@ -1200,7 +1206,7 @@ margin-top: 10px;
 
 #cover{
   max-width: 70px;
-  margin: 8px;
+  margin: 4px;
 }
 
 #cover1{
