@@ -245,7 +245,7 @@ da
 .introtext{
 font-family:"Montserrat", sans-serif;
   color: black; 
-  margin-top: 40px;
+  margin-top: 30px;
   font-weight: 600;
   margin-bottom: 30px;
    font-size: 4vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
