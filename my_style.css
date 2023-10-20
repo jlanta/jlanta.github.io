@@ -14,13 +14,10 @@
 
 
 .menu a{
-  font-size: 18px;
-  text-decoration: none;
 
 }
 
 .menu {
-  width: 140px;
   position: fixed;
   z-index: 2;
   text-align: center;
