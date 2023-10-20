@@ -449,6 +449,8 @@ opacity: 0.6;
   float: right;
   margin-top: 10px;
   margin-right: 10px;
+  width: 40px; 
+  height: auto;
 }
 
 .uplink:hover{
