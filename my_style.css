@@ -55,6 +55,20 @@
 
 
 
+.connect_text{
+   text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  float: left;
+  color: #000000;
+    font-size: 4vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
+    font-size: max(46px, min(2vw, 38px)); /* Browsers that do not support the "clamp ()" function will take this value. */
+    font-size: clamp(38px, 3vw, 46px);
+    line-height:1.2;
+    margin-bottom: 32px;
+}
+
+
 
 
 
@@ -103,7 +117,6 @@ ul{
 
 li{
   font-weight: 500;
-  padding: 4introtextpx;
   display: inline-block;
 
 }
@@ -168,17 +181,6 @@ li{
 
 
 
-
-.connect_text{
-   text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  float: left;
-  color: #000000;
-    font-size: 3vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
-    font-size: max(46px, min(1vw, 32px)); /* Browsers that do not support the "clamp ()" function will take this value. */
-    font-size: clamp(46px, 3vw, 32px)
-}
 
 
 
@@ -279,6 +281,7 @@ font-family:"Montserrat", sans-serif;
    font-size: 4vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
     font-size: max(45px, min(1vw, 62px)); /* Browsers that do not support the "clamp ()" function will take this value. */
     font-size: clamp(45px, 4vw, 62px);
+     line-height: 1.2;
 
 
 
@@ -859,17 +862,10 @@ font-family: 'Merriweather',serif;
   font-family: 'futura-pt', 'Helvetica', 'Arial', sans-serif !important;
   font-size: 16px;
   text-align: left;
- padding-right: 32px;
- padding-left: 32px;
  font-weight: 500;
- 
-
-
-
-
-  
-
-}
+ padding-left: 24px;
+ padding-right: 24px; 
+ }
 
 
 .down{
@@ -1491,7 +1487,7 @@ margin-top: 10px;
 
 
 
-.text-menu_1{
+.top-menu_1{
    position: fixed;
    color: #1a1b1f;
   z-index: 1;
