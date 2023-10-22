@@ -39,15 +39,16 @@
 
 }
 
-  .affix{
-    text-align: center;
-  }
 
   .menutable {
     display: inline;
   } 
 
 
+.effecthidden li{
+  margin: 32px;
+  display: inline;
+}
 
 
 
@@ -98,9 +99,8 @@ ul{
 
 li{
   font-weight: 500;
-  padding-left: 16px;
-  padding-bottom: 8px;
-  display: inline;
+  padding: 4px;
+  display: inline-block;
 
 }
 
@@ -120,7 +120,6 @@ li{
   padding-right: 0px;
   text-align: left;
 
-da
 }
 
 
@@ -564,8 +563,7 @@ opacity: 0.6;
 
 
 @media (max-width: 992px) {
-  .menu{
-    
+  .menu{ 
     vertical-align: middle;
   }
 
@@ -590,13 +588,6 @@ opacity: 0.6;
 }
 
 
-.effecthidden li{
-  margin: 32px;
-  padding: 32px;
-  display: inline;
-
-
-}
 
 .role{
  margin-left: 10px;
