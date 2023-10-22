@@ -246,11 +246,11 @@ da
 font-family:"Montserrat", sans-serif;
   color: black; 
   margin-top: 30px;
-  font-weight: 600;
+  font-weight: 550;
   margin-bottom: 30px;
    font-size: 4vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
     font-size: max(48px, min(1vw, 62px)); /* Browsers that do not support the "clamp ()" function will take this value. */
-    font-size: clamp(48px, 4vw, 62px)
+    font-size: clamp(48px, 4vw, 62px);
 
 
 
@@ -295,6 +295,14 @@ hr.solid_1 {
   margin-left: 0px;
 }
 
+
+hr.solid2{
+
+  border-top: 0.5px solid #dbdbdb;
+  margin-bottom: -0.5px;
+  margin-left: 0px;
+
+}
 
 
 
@@ -543,13 +551,19 @@ opacity: 0.6;
   .menutable {
     display: inline;
     text-align: center;
+
+  
+
+
   } 
 
 
 
 
 
-  .title{
+
+
+.title {
   
   font-weight: 640;
   line-height: 48px;
@@ -1576,4 +1590,44 @@ margin-top: 10px;
   content: "";
   display: table;
   clear: both;
+}
+
+
+
+
+
+
+
+.btn-outline-primary {
+  border: 0.2em solid #1414F5;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  color: #1414F5;
+  border-radius: 4em;
+  cursor: pointer; 
+  padding: 1em 3em;
+  font-family:  "Montserrat", sans-serif;
+  font-size: 1.2vw;
+  width:  12em; 
+
+} 
+
+
+
+
+
+.btn-outline-primary:hover {
+
+
+  border: 3px solid #1414F5;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 28px;
+  background-color: #1414F5;
 }
