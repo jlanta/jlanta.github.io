@@ -347,7 +347,6 @@ font-family:"Montserrat", sans-serif;
   color: black; 
   margin-top: 30px;
   font-weight: 550;
-  margin-bottom: 30px;
    font-size: 4vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
     font-size: max(45px, min(1vw, 62px)); /* Browsers that do not support the "clamp ()" function will take this value. */
     font-size: clamp(45px, 4vw, 62px);
@@ -1176,7 +1175,7 @@ h2{
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
    .wrapper {
       height: auto;  // clearing 
    }
@@ -1190,7 +1189,7 @@ h2{
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
    .wrapper {
       height: auto;  // clearing 
    }
@@ -1205,7 +1204,7 @@ h2{
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
    .wrapper1 {
       height: auto;  // clearing 
    }
@@ -1215,7 +1214,7 @@ h2{
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
    .wrapper {
       height: auto;  // clearing 
    }
@@ -1223,7 +1222,7 @@ h2{
    #two { max-width:50% ;float: right; }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
    .wrapper1 {
       height: auto;  // clearing 
    }
@@ -1240,12 +1239,21 @@ h2{
   text-transform: uppercase;
   font-size:12px;
   margin-left: -7px;
+
 }
+
+
+
+
 
 .position-text{
     font-size: 18px;
   text-align: left;
   margin-right: 8px;
+}
+
+#position-text{
+    font-size: 18px;
 }
 
 
