@@ -9,11 +9,11 @@
    color: #1a1b1f;
   z-index: 5;
   width: 100%;
-  height: 146px;
+  height: 136px;
    padding-right: 19px;
   padding-left: 19px;
   opacity: 90%;
-  padding-top: 24px;
+  padding-top: 20px;
   background-image:linear-gradient(to bottom, rgba(255,255,255,200), rgba(0,0,0,0));
 }
 
@@ -22,7 +22,11 @@
 
 
 #logo{
-  padding-top:-10px; max-width:40px; height: auto; z-index: 3; position:fixed;
+  padding-top:-10px; 
+  max-width:40px; 
+  height: auto; z-index: 3; 
+  position:fixed;
+  margin-left: 20px;
 }
 
 
@@ -606,7 +610,7 @@ opacity: 0.6;
 
 
 .landing {
-  padding-top: 90px;
+  padding-top: 120px;
   z-index: 0;
 
 
@@ -925,9 +929,6 @@ a:hover{
   display: inline;
 padding-top: 0px;
   width: 80%;
-  margin-left: 100px;
-
-
 }
 
 
@@ -1302,12 +1303,10 @@ margin-top: 10px;
 
 
 #dragme .rotating {
-  width: 14vw;
-  height: 14vw;
-    min-width: 50%;
+  width: 12vw;
+  height: 12vw;
+  min-width: 50%;
   max-width: 100%;
-    min-height: 50%;
-  max-height: 100%;
   background: #36A7B7;
   -webkit-animation: rotating 20s linear infinite;
   -moz-animation: rotating 20s linear infinite;
@@ -1321,8 +1320,8 @@ margin-top: 10px;
 
 #dragme2 .rotating,
 #dragme4 .rotating {
-    width: 18vw;
-    height: 15vw;
+    width: 14vw;
+    height: 12vw;
   background-image: url("triangle-bg.png");
   background-size: 100% 100%;
   -webkit-animation: rotating 10s linear infinite;
@@ -1338,8 +1337,10 @@ margin-top: 10px;
 }
 
 #dragme3 .rotating {
-  width: 14vw;
-  height: 14vw;
+ width: 12vw;
+  height: 12vw;
+  min-width: 50%;
+  max-width: 100%;
   border-radius: 50%;
   background: #E31D88;
   -webkit-animation: rotating-rev 15s linear infinite;
@@ -1377,6 +1378,8 @@ margin-top: 10px;
 
 .draggable .rotating a {
   font-size: 1.2vw;
+  font-size: 1.2vw; font-size: max(10px, min(1vw,42px)); 
+  font-size: clamp(10px, 1vw, 42px);
   border: none;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
@@ -1401,10 +1404,20 @@ margin-top: 10px;
   #dragme2 {
     display: none;
   }
-  #dragme4 {
+   #dragme4 {
     display: block;
   }
+    #dragme3 {
+    display: none;
+  }
+    #dragme {
+    display: none;
+  }
 }
+
+
+
+
 
 
 
@@ -1486,13 +1499,15 @@ margin-top: 10px;
 
 
 .top-menu_1{
-   position: fixed;
+     position: fixed;
    color: #1a1b1f;
-  z-index: 1;
+  z-index: 5;
   width: 100%;
-   padding-right: 24px;
-  padding-left: 24px;
-  padding-top: 24px;
+  height: 136px;
+   padding-right: 19px;
+  padding-left: 19px;
+  opacity: 90%;
+  padding-top: 20px;
 }
 
 .text-menu_work{
