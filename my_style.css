@@ -110,11 +110,6 @@
 
 
 
-
-
-
-
-
 #menucontainer_fixed_small {
    background-image:linear-gradient(to top, rgba(255,255,255,200), rgba(0,0,0,0));
 
@@ -124,7 +119,7 @@
 
 .menu {
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   bottom:3%;
 }
 
@@ -132,7 +127,7 @@
 
 .menu_1 {
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   text-align: center;
   bottom:3%;
   background-image:linear-gradient(to top, rgba(255,255,255,200), rgba(0,0,0,0));
@@ -508,19 +503,18 @@ opacity: 0.6;
 
 
 
-#gallerycontainer1{
+#galerrycontainer1{
  margin: 0 auto;
  text-align: center;
- width: fit-content;
-   
-    
+ padding-top: 72px;
+ 
 }
 
 
 
 #gallerycontainer2{
      margin: 0 auto;
-    margin-top: 80px;
+    padding-top: 80px;
     width: 100%;
       padding-bottom: 80px;
 }
@@ -571,7 +565,6 @@ opacity: 0.6;
 }
 
 .uplink{
-  opacity: 0.5; 
   max-width: 50px;
   float: right;
   margin-top: 10px;
@@ -579,14 +572,6 @@ opacity: 0.6;
 
 }
 
-.uplink:hover{
-  opacity: 1;
-}
-
-
-.uplink:visited {
-  opacity: 0.5; 
-}
 
 
 .linkabout{
@@ -839,57 +824,32 @@ a:focus {
 
   }
 
-.badgeunit{
-  max-width: 400px;
-
-  margin-bottom: 32px;
-
-}
 
 
 
-.playfulbet-back{
-background-color: red;
-}
+
  
 
 #badgesgallery{
-  max-width: 325px;
+  max-width: 350px;
   margin: 0 auto;
   text-align: center;
 
 }
 
 .badgeunit{
-  max-width: 75px;
   display: inline-block;
-  margin-right: 15px;
-    margin-left: 15px;
-  margin-top: 20px;
+    max-width: 400px;
+  margin-bottom: 32px;
+  max-width: 80px;
+  display: inline-block;
+  margin-right: 30px;
 }
 
 
 .badgeunit img {
     -webkit-transition: all 1s ease; /* Safari and Chrome */
- 
-.quoteinside{
-  max-width: 255px;
-  float: right;
-  text-align: center;
-  text-transform: inherit;
-  font-style: italic;
-  margin-bottom: 50px;
-  }
-
-.badgeunit{
-  max-width: 80px;
-  display: inline-block;
-  margin-right: 30px;
-  margin-top: 20px;
-}
-
-
-.   -moz-transition: all 1s ease; /* Firefox */
+  -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
     -o-transition: all 1s ease; /* Opera */
     transition: all 1s ease;
@@ -907,7 +867,6 @@ background-color: red;
   margin-top: 15px;
   font-size: 10px;
   line-height: 120%;
-
  color: #5d5d5d;
   text-align: left;
   letter-spacing: .05em;
@@ -968,7 +927,10 @@ font-family: 'Merriweather',serif;
   margin: 0 auto;
 }
 
+.gallerycontainer1 {
+    text-align: center;
 
+}
 
 
 .text_about{
