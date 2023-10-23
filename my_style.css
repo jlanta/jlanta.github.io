@@ -13,9 +13,15 @@
    padding-right: 19px;
   padding-left: 19px;
   opacity: 90%;
-  padding-top: 20px;
+  padding-top: 16px;
   background-image:linear-gradient(to bottom, rgba(255,255,255,200), rgba(0,0,0,0));
 }
+
+
+
+
+
+
 
 
 
@@ -26,7 +32,6 @@
   max-width:40px; 
   height: auto; z-index: 3; 
   position:fixed;
-  margin-left: 20px;
 }
 
 
@@ -54,6 +59,12 @@
 
 
 .effecthidden{
+
+}
+
+
+
+.effecthidden_1{
   margin: 4px;
 }
 
@@ -106,8 +117,8 @@ a:active {
     color: #000000;
     font-family: 'futura-pt', 'Helvetica', 'Arial', sans-serif !important;
     font-size: 16px;
-    padding-right: 32px;
-    padding-left: 32px;
+    padding-right: 58px;
+    padding-left: 58px;
     padding-top: 30px;
 }
 
@@ -422,7 +433,6 @@ opacity: 0.6;
 #gallerycontainer1{
  margin: 0 auto;
  text-align: center;
- margin-top: 80px;
  width: fit-content;
    
     
@@ -471,11 +481,11 @@ opacity: 0.6;
 } 
 
 .introcontainer{
-  background-color: #ff937d;
-   background-image: url(myphotofilter.png);
+
     background-repeat:no-repeat;
     background-position:right; 
  width: 100%;
+ height: 170px;
   background-repeat:no-repeat;
     background-position:left; 
     text-align: center;  
@@ -585,6 +595,11 @@ opacity: 0.6;
 
 
 
+
+
+
+
+
 .title {
   
   font-weight: 640;
@@ -594,7 +609,7 @@ opacity: 0.6;
    font-size: 3vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
     font-size: max(46px, min(1vw, 32px)); /* Browsers that do not support the "clamp ()" function will take this value. */
     font-size: clamp(46px, 3vw, 32px)
-      text-align: center;
+  
 
 }
 
@@ -612,7 +627,21 @@ opacity: 0.6;
 .landing {
   padding-top: 120px;
   z-index: 0;
+  }
 
+.project_landing {
+  z-index: 0;
+  padding-top: 4vw;
+  }
+
+ 
+
+
+
+
+.landing_1 {
+  z-index: 0;
+    padding-top: 72px;
 
 
 
@@ -623,6 +652,12 @@ opacity: 0.6;
   margin-left: 14%;
   margin-right: 14%;
 }
+
+.home_landing_1 {
+  margin-left: 14%;
+  margin-right: 14%;
+}
+
 
 
 
@@ -668,7 +703,7 @@ opacity: 0.6;
     vertical-align: baseline;
     font-family: 'futura-pt', 'Helvetica', 'Arial', sans-serif !important;
   text-align: center;
-  padding-top: 62px;
+  padding-top: 3vw;
 }
 
 .role{
@@ -730,9 +765,9 @@ a:focus {
   }
 
 .badgeunit{
-  max-width: 100px;
-  margin-right: 30px;
-  margin-top: 20px;
+  max-width: 400px;
+
+  margin-bottom: 32px;
 
 }
 
@@ -747,15 +782,14 @@ background-color: red;
   max-width: 325px;
   margin: 0 auto;
   text-align: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
 
 }
 
 .badgeunit{
   max-width: 75px;
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 15px;
+    margin-left: 15px;
   margin-top: 20px;
 }
 
@@ -1041,11 +1075,6 @@ display: table;
 
   float: left;
   text-align: center;
-
- 
-
-
-
  }
 
     
@@ -1136,6 +1165,18 @@ h2{
    #experience_column_3 { max-width:20% ;float: left; }
    #experience_column_4 { max-width:20% ;float: left; }
    #experience_column_5 { max-width:20% ;float: left; }
+
+
+}
+
+
+@media screen and (min-width: 600px) {
+   .wrapper {
+      height: auto;  // clearing 
+   }
+   #project_column_1 {max-width:30% ;float: left; }
+   #project_column_2 { max-width:70% ;float: left; }
+  
 
 
 }
@@ -1419,6 +1460,24 @@ margin-top: 10px;
 
 
 
+@media screen and (max-width: 1150px) {
+  #full {
+    display: none;
+  }
+  
+}
+
+
+@media screen and (min-width: 1150px) {
+  #small {
+    display: none;
+  }
+  
+}
+
+
+
+
 
 
 
@@ -1507,7 +1566,7 @@ margin-top: 10px;
    padding-right: 19px;
   padding-left: 19px;
   opacity: 90%;
-  padding-top: 20px;
+  padding-top: 16px;
 }
 
 .text-menu_work{
