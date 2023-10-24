@@ -149,6 +149,22 @@
 
 
 
+  a{
+  text-decoration: none;
+  color: #4c4c4c;
+  }
+
+  a:hover{
+    color: #1414F5;
+ text-decoration: none;
+  }
+
+
+  a:active {
+color: #000000;
+   text-decoration: none;
+}
+
 
 
 
@@ -976,12 +992,6 @@ font-family: 'Merriweather',serif;
 
 
 
-a:hover{
-    color: #1414F5;
- text-decoration: none;
-
-
-  }
 
 
 .aboutcontainer{
@@ -991,10 +1001,6 @@ padding-top: 0px;
 }
 
 
-  a{
-  text-decoration: none;
-  color: #000000;
-  }
 
 
 
