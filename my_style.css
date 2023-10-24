@@ -51,6 +51,11 @@
   #top-menu_full {
     display: none;
   }
+
+ .top-button_full {
+    display: none;
+  }
+  
   
 }
 
@@ -59,8 +64,16 @@
   #top-menu_small {
     display: none;
   }
+  .top-button {
+    display: none;
+  }
+  
   
 }
+
+
+
+
 
 
 #logo{
