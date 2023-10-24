@@ -451,7 +451,6 @@ opacity: 0.6;
    font-family: 'futura-pt', 'Helvetica', 'Arial', sans-serif !important;
    margin: 0 auto;
     padding-top: 16px;
-    padding-bottom: 24px;
     line-height: 22px;
 }
 
@@ -575,6 +574,7 @@ opacity: 0.6;
   padding-bottom: 24px;
  display: block;
  text-align: center;
+ padding:20px;
 }
 
 
@@ -593,8 +593,7 @@ opacity: 0.6;
 .made{
   color: #fbd5cc;
   font-size: 11px;
-  padding-bottom: 5px;
-  padding: 0 20px;
+  padding: 20px;
 
 }
 
@@ -1050,6 +1049,7 @@ h4{
 .tools{
 width: 50px;
   display: inline-block;
+  padding: 8px;
 
 }
 
