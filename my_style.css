@@ -1594,7 +1594,9 @@ margin-top: 10px;
 
 
 .tools1{
- margin-bottom: 
+width: 50px;
+  display: inline-block;
+  padding: 6px;
 }
 
 .img-responsive{
