@@ -350,7 +350,7 @@ font-family:"Montserrat", sans-serif;
    font-size: 4vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
     font-size: max(45px, min(1vw, 62px)); /* Browsers that do not support the "clamp ()" function will take this value. */
     font-size: clamp(45px, 4vw, 62px);
-     line-height: 1.2;
+     line-height: 1.3;
 
 
 
