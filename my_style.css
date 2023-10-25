@@ -608,6 +608,12 @@ opacity: 0.6;
 }
 
 
+button {
+  border: none;
+  background-color: transparent;
+}
+
+
 
 
 .networks1{
