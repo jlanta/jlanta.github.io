@@ -365,6 +365,10 @@ li {
     0%, #e7357f 50%, #6a21f5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+        font-size: 18px;
+  text-align: left;
+  margin-right: 8px;
+  margin-top: 10px;
 }
 
 
@@ -379,6 +383,7 @@ font-family:"Montserrat", sans-serif;
     font-size: max(45px, min(1vw, 62px)); /* Browsers that do not support the "clamp ()" function will take this value. */
     font-size: clamp(45px, 4vw, 62px);
      line-height: 1.3;
+     margin-top:24px;
 
 
 
@@ -611,6 +616,7 @@ opacity: 0.6;
 button {
   border: none;
   background-color: transparent;
+  padding: 0px;
 }
 
 
