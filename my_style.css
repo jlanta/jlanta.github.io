@@ -389,7 +389,7 @@ li {
 .introtext{
 font-family:"Montserrat", sans-serif;
   color: black; 
-  font-weight: 550;
+  font-weight: 600;
    font-size: 4vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
     font-size: max(45px, min(1vw, 62px)); /* Browsers that do not support the "clamp ()" function will take this value. */
     font-size: clamp(45px, 4vw, 62px);
@@ -484,7 +484,7 @@ opacity: 0.6;
   max-width: 650px;
   text-align: center;
   margin: 0 auto;
- padding-top: 72px;
+ padding-top: 92px;
   font-family: "Montserrat", sans-serif;
 }
 
